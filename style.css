@@ -1,0 +1,13 @@
+@import "./reset.css";
+
+
+header{
+    background-color: #a46d06;
+    height: 102px;
+}
+
+.header__logo img {
+    width: 130px;
+    height: 40px;
+}
+
