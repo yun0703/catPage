@@ -2,12 +2,45 @@
 
 
 header{
-    background-color: #a46d06;
+    background-color: #f2E9d8;
     height: 102px;
 }
 
-.header__logo img {
+.header__logo {
     width: 130px;
     height: 40px;
+
+    position: absolute;
+    left: 320px;
+    top: 30px;
 }
 
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    position: relative;
+}
+
+button {
+    background-color: #D97652;
+    color: #FFF;
+    display: inline;
+
+    border-radius: 40px;
+    border: none;
+
+    width: 140px;
+    height: 50px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
