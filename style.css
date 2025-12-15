@@ -2,8 +2,11 @@
 
 
 header{
+    display: flex;
+    align-items: center;
     background-color: #f2E9d8;
     height: 102px;
+    padding: 0 40px;
 }
 
 .header__logo {
@@ -11,8 +14,14 @@ header{
     height: 40px;
 
     position: absolute;
-    left: 320px;
+    left: 120px;
     top: 30px;
+}
+
+nav {
+
+    margin-left: auto; 
+    margin-right: 40px;
 }
 
 nav ul {
@@ -27,7 +36,7 @@ nav a {
     text-decoration: none;
     font-size: 16px;
     color: black;
-    position: relative;
+    display: block;
 }
 
 button {
@@ -43,4 +52,41 @@ button {
 
     font-size: 16px;
     font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;     
+    padding-left: 320px; 
+    background-color: #f2E9d8;
+    min-height: 900px;
+    overflow: hidden;
+}
+.hero-text {
+    max-width: 740px;
+    line-height: 1.6;
+}
+.hero-text h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    max-width: 440px;
+    margin-bottom: 40px;
+}
+
+.hero-image {
+    position: absolute;
+    right: 320px;
+    bottom: -120px;
+}
+
+.hero-image img {
+    width: 415px;  
+    height: auto;
 }
